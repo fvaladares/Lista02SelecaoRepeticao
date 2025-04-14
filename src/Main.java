@@ -42,6 +42,9 @@ public class Main {
                     break;
 
                 case 2:
+                    System.out.println("Executando a atividade 2");
+                    Exercicio2 exercicio2 = new Exercicio2(entrada);
+                    exercicio2.executar();
                     break;
 
                 case 3:

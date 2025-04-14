@@ -36,7 +36,7 @@ public class Exercicio2 {
         if (somaMenorQueC) {
             System.out.println("A soma de A + B é MENOR DO C");
         } else {
-            System.out.println("A soma de A + B é MAIOR QUE, OU IGUAL A C.");
+            System.out.println("A soma de A + B é MAIOR DO QUE, OU IGUAL ao valor da variável C.");
         }
         System.out.println();
     }
