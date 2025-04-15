@@ -18,13 +18,14 @@ public class Main {
             System.out.println("\t1. Criar menu");
             System.out.println("\t2. A + B < C?");
             System.out.println("\t3. Número par ou ímpar?");
+            System.out.println("\t99. Pré desafio");
             System.out.print("Informe qual a opção desejada (-1 para sair):\\> ");
             controle = entrada.nextInt(); // Faz a leitura de um número inteiro
 
             switch (controle) {
                 case -1:
                     System.out.println("Tem certeza que deseja sair?");
-                    System.out.println("(S)im; (N)ão" );
+                    System.out.println("(S)im; (N)ão");
                     String confirmacao;
                     // Le uma string e pega a primeira posição.
                     confirmacao = entrada.next();
@@ -49,6 +50,10 @@ public class Main {
 
                 case 3:
                     break;
+
+                case 99:
+                    ExercicioPreDesafio exercicioPreDesafio = new ExercicioPreDesafio();
+                    exercicioPreDesafio.executar();
 
                 default:
                     break;
